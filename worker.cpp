@@ -26,6 +26,6 @@ void Worker::work() {
 	cout << "sure(s)\tx mesafe(m)\ty mesafe(m)\t"<< endl;		
 	cout << "----\t-----------\t-----------\t"<< endl;		
 	for (float i = 0.5; i <= 6.0; i+=0.5) {				
-		cout << i << "\tX: " << vX * i << "\tY: " << vY * i - ((G_POWER * pow(i, 2)) / 2) << " \t Aci: " << 0 << endl;		
+		cout << i << "\tX: " << vX * i << "\tY: " << vY * i - ((G_POWER * pow(i, 2)) / 2) << endl;		
 	}		
 }
